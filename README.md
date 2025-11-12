@@ -6,133 +6,47 @@
 
 
 
-              ┌────────────────────┐
-          │     User Input     │
-          │ (Health Question)  │
-          └─────────┬──────────┘
-                    │
-                    ▼
-         ┌──────────────────────┐
-         │ NLP Processing Layer │
-         │ (Text Understanding) │
-         └─────────┬────────────┘
-                    │
-                    ▼
-       ┌────────────────────────────┐
-       │   Intent & Keyword Match   │
-       │ (Symptom or General Query) │
-       └───────────┬────────────────┘
-                    │
-        ┌───────────┴────────────┐
-        │                        │
-        ▼                        ▼
- ┌─────────────┐        ┌────────────────┐
- │ Symptom Tip │        │ General Advice │
- │ (Health Info)│       │ (Wellness Tips)│
- └─────────────┘        └────────────────┘
-                    │
-                    ▼
-         ┌────────────────────────┐
-         │  Response to the User  │
-         └────────────────────────┘
-                    │
-                    ▼
-         ┌────────────────────────┐
-         │ Ask if user needs more │
-         │     help (Yes/No)      │
-         └─────────┬──────────────┘
-                    │
-             ┌──────┴───────┐
-             ▼              ▼
-     ┌────────────┐   ┌─────────────┐
-     │ Continue   │   │ End Session │
-     └────────────┘   └─────────────┘
+                                                          ┌────────────────────┐
+                                                          │     User Input     │
+                                                          │ (Health Question)  │
+                                                          └─────────┬──────────┘
+                                                                    │
+                                                                    ▼
+                                                         ┌──────────────────────┐
+                                                         │ NLP Processing Layer │
+                                                         │ (Text Understanding) │
+                                                         └─────────┬────────────┘
+                                                                   │
+                                                                   ▼
+                                                       ┌────────────────────────────┐
+                                                       │   Intent & Keyword Match   │
+                                                       │ (Symptom or General Query) │
+                                                       └───────────┬────────────────┘
+                                                                   │
+                                                       ┌───────────┴────────────┐
+                                                       │                        │
+                                                       ▼                        ▼
+                                                 ┌─────────────┐        ┌────────────────┐
+                                                 │ Symptom Tip │        │ General Advice │
+                                                 │ (Health Info)│       │ (Wellness Tips)│
+                                                 └─────────────┘        └────────────────┘
+                                                                    │
+                                                                    ▼
+                                                        ┌────────────────────────┐
+                                                        │  Response to the User  │
+                                                        └────────────────────────┘
+                                                                    │
+                                                                    ▼
+                                                       ┌────────────────────────┐
+                                                       │ Ask if user needs more │
+                                                       │     help (Yes/No)      │
+                                                       └─────────┬──────────────┘
+                                                                 │
+                                                m         ┌──────┴───────┐
+                                                          ▼              ▼
+                                                  ┌────────────┐   ┌─────────────┐
+                                                  │ Continue   │   │ End Session │
+                                                  └────────────┘   └─────────────┘
  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <img src="hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc9F7fpMr4Nu6NGrSHx5ie1U6Xjc86ZdCizQ&s.jpeg">
-
-PS: Please do not forget to drop a star if you like it!
